@@ -1,10 +1,85 @@
 .container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 24px auto;
+}
+
+.cinema-wrapper {
+  overflow: hidden;
 }
 
 .cinema {
   padding: 24px;
   background-color: #0e0c0c;
   display: inline-block;
+}
+
+.screen {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 48px;
+  background-color: #676767;
+  padding: 24px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex: 1 1 1;
+  color: #fff;
+}
+
+.total {
+  color: #000;
+}
+
+.guide-wrapper {
+  margin-top: 24px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.guide {
+  flex: 1 1 50%;
+}
+
+.choosed-guide {
+  display: inline-block;
+  margin-right: 8px;
+  width: 24px;
+  height: 24px;
+  background-color: #424242;
+}
+
+.choosing-guide {
+  display: inline-block;
+  margin-right: 8px;
+  width: 24px;
+  height: 24px;
+  background-color: #fff;
+}
+
+.standard-guide {
+  display: inline-block;
+  margin-right: 8px;
+  width: 24px;
+  height: 24px;
+  background-color: #676767;
+}
+
+.vip-guide {
+  display: inline-block;
+  margin-right: 8px;
+  width: 24px;
+  height: 24px;
+  background-color: #185833;
+}
+
+.deluxe-guide {
+  display: inline-block;
+  margin-right: 8px;
+  width: 24px;
+  height: 24px;
+  background-color: #1f4881;
 }

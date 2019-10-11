@@ -1,684 +1,816 @@
 [
   [
     {
-      "position": "A1",
+      "position": "A01",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
-      "position": "A2",
+      "position": "A02",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
-      "position": "A3",
+      "position": "A03",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
-      "position": "A4",
+      "position": "A04",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
-      "position": "A5",
+      "position": "A05",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
-      "position": "A6",
+      "position": "A06",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
-      "position": "A7",
+      "position": "A07",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
-      "position": "A8",
+      "position": "A08",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
-      "position": "A9",
+      "position": "A09",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
       "position": "A10",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
       "position": "A11",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
       "position": "A12",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     }
   ],
   [
     {
-      "position": "B1",
+      "position": "B01",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
-      "position": "B2",
+      "position": "B02",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
-      "position": "B3",
+      "position": "B03",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
-      "position": "B4",
+      "position": "B04",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
-      "position": "B5",
+      "position": "B05",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
-      "position": "B6",
+      "position": "B06",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
-      "position": "B7",
+      "position": "B07",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
-      "position": "B8",
+      "position": "B08",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
-      "position": "B9",
+      "position": "B09",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
       "position": "B10",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
       "position": "B11",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
       "position": "B12",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     }
   ],
   [
     {
-      "position": "C1",
+      "position": "C01",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
-      "position": "C2",
+      "position": "C02",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
-      "position": "C3",
+      "position": "C03",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
-      "position": "C4",
+      "position": "C04",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
-      "position": "C5",
+      "position": "C05",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
-      "position": "C6",
+      "position": "C06",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
-      "position": "C7",
+      "position": "C07",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
-      "position": "C8",
+      "position": "C08",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
-      "position": "C9",
+      "position": "C09",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
       "position": "C10",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
       "position": "C11",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
       "position": "C12",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     }
   ],
   [
     {
-      "position": "D1",
+      "position": "D01",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
-      "position": "D2",
+      "position": "D02",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
-      "position": "D3",
+      "position": "D03",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
-      "position": "D4",
+      "position": "D04",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
-      "position": "D5",
+      "position": "D05",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
-      "position": "D6",
+      "position": "D06",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
-      "position": "D7",
+      "position": "D07",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
-      "position": "D8",
+      "position": "D08",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
-      "position": "D9",
+      "position": "D09",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
       "position": "D10",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
       "position": "D11",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     },
     {
       "position": "D12",
       "type": "standard",
-      "empty": true
+      "empty": true,
+      "price": 60000
     }
   ],
   [
     {
-      "position": "E1",
+      "position": "E01",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "E2",
+      "position": "E02",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "E3",
+      "position": "E03",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "E4",
+      "position": "E04",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "E5",
+      "position": "E05",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "E6",
+      "position": "E06",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "E7",
+      "position": "E07",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "E8",
+      "position": "E08",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "E9",
+      "position": "E09",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
       "position": "E10",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
       "position": "E11",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
       "position": "E12",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     }
   ],
   [
     {
-      "position": "F1",
+      "position": "F01",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "F2",
+      "position": "F02",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "F3",
+      "position": "F03",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "F4",
+      "position": "F04",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "F5",
+      "position": "F05",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "F6",
+      "position": "F06",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "F7",
+      "position": "F07",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "F8",
+      "position": "F08",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "F9",
+      "position": "F09",
       "type": "vip",
-      "empty": true
+      "empty": false,
+      "price": 90000
     },
     {
       "position": "F10",
       "type": "vip",
-      "empty": true
+      "empty": false,
+      "price": 90000
     },
     {
       "position": "F11",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
       "position": "F12",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     }
   ],
   [
     {
-      "position": "G1",
+      "position": "G01",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "G2",
+      "position": "G02",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "G3",
+      "position": "G03",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "G4",
+      "position": "G04",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "G5",
+      "position": "G05",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "G6",
+      "position": "G06",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "G7",
+      "position": "G07",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "G8",
+      "position": "G08",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "G9",
+      "position": "G09",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
       "position": "G10",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
       "position": "G11",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
       "position": "G12",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     }
   ],
   [
     {
-      "position": "H1",
+      "position": "H01",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "H2",
+      "position": "H02",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "H3",
+      "position": "H03",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "H4",
+      "position": "H04",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "H5",
+      "position": "H05",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "H6",
+      "position": "H06",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "H7",
+      "position": "H07",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "H8",
+      "position": "H08",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "H9",
+      "position": "H09",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
       "position": "H10",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
       "position": "H11",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
       "position": "H12",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     }
   ],
   [
     {
-      "position": "J1",
+      "position": "J01",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "J2",
+      "position": "J02",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "J3",
+      "position": "J03",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "J4",
+      "position": "J04",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "J5",
+      "position": "J05",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "J6",
+      "position": "J06",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "J7",
+      "position": "J07",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "J8",
+      "position": "J08",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "J9",
+      "position": "J09",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
       "position": "J10",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
       "position": "J11",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
       "position": "J12",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     }
   ],
   [
     {
-      "position": "K1",
+      "position": "K01",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "K2",
+      "position": "K02",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "K3",
+      "position": "K03",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "K4",
+      "position": "K04",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "K5",
+      "position": "K05",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "K6",
+      "position": "K06",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "K7",
+      "position": "K07",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "K8",
+      "position": "K08",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
-      "position": "K9",
+      "position": "K09",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
       "position": "K10",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
       "position": "K11",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     },
     {
       "position": "K12",
       "type": "vip",
-      "empty": true
+      "empty": true,
+      "price": 90000
     }
   ],
   [
     {
-      "position": "L1",
+      "position": "L01",
       "type": "deluxe",
-      "empty": true
+      "empty": true,
+      "price": 110000
     },
     {
-      "position": "L2",
+      "position": "L02",
       "type": "deluxe",
-      "empty": true
+      "empty": true,
+      "price": 110000
     },
     {
-      "position": "L3",
+      "position": "L03",
       "type": "deluxe",
-      "empty": true
+      "empty": true,
+      "price": 110000
     },
     {
-      "position": "L4",
+      "position": "L04",
       "type": "deluxe",
-      "empty": true
+      "empty": true,
+      "price": 110000
     },
     {
-      "position": "L5",
+      "position": "L05",
       "type": "deluxe",
-      "empty": true
+      "empty": true,
+      "price": 110000
     },
     {
-      "position": "L6",
+      "position": "L06",
       "type": "deluxe",
-      "empty": true
+      "empty": true,
+      "price": 110000
     },
     {
-      "position": "L7",
+      "position": "L07",
       "type": "deluxe",
-      "empty": true
+      "empty": true,
+      "price": 110000
     },
     {
-      "position": "L8",
+      "position": "L08",
       "type": "deluxe",
-      "empty": true
+      "empty": true,
+      "price": 110000
     },
     {
-      "position": "L9",
+      "position": "L09",
       "type": "deluxe",
-      "empty": true
+      "empty": true,
+      "price": 110000
     },
     {
       "position": "L10",
       "type": "deluxe",
-      "empty": true
+      "empty": true,
+      "price": 110000
     },
     {
       "position": "L11",
       "type": "deluxe",
-      "empty": true
+      "empty": true,
+      "price": 110000
     },
     {
       "position": "L12",
       "type": "deluxe",
-      "empty": true
+      "empty": true,
+      "price": 110000
     }
   ]
 ]
