@@ -8,6 +8,7 @@ class App extends React.Component {
     this.state = {
       choosingList: [],
       total: 0,
+      scale: 1,
     };
   }
 
@@ -33,11 +34,17 @@ class App extends React.Component {
   }
 
   zoomOut = () => {
-
+    const { scale } = this.state;
+    if (scale < 1.5) {
+      this.setState({ scale: scale + 0.05 });
+    }
   }
 
   zoomIn = () => {
-
+    const { scale } = this.state;
+    if (scale > 1) {
+      this.setState({ scale: scale - 0.05 });
+    }
   }
 
   render = () => (
