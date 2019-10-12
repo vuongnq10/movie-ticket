@@ -11,3 +11,28 @@ export const load = () => {
     }), 3000);
   }
 }
+
+export const pay = (tickets, total) => {
+  return (dispatch, getState) => {
+    const { seats } = getState().app;
+    const newSeats = seats.map(row => {
+      const newRows = row.map(cell => {
+        if (tickets.indexOf(cell.position) > -1) {
+          return {
+            ...cell,
+            empty: false,
+          };
+        }
+        return cell;
+      });
+      return newRows;
+    });
+
+    dispatch({
+      type: 'LOADED',
+      data: {
+        seats: newSeats,
+      },
+    });
+  }
+}

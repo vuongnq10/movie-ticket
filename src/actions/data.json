@@ -347,13 +347,13 @@
     {
       "position": "E09",
       "type": "vip",
-      "empty": true,
+      "empty": false,
       "price": 90000
     },
     {
       "position": "E10",
       "type": "vip",
-      "empty": true,
+      "empty": false,
       "price": 90000
     },
     {
@@ -453,13 +453,13 @@
     {
       "position": "G02",
       "type": "vip",
-      "empty": true,
+      "empty": false,
       "price": 90000
     },
     {
       "position": "G03",
       "type": "vip",
-      "empty": true,
+      "empty": false,
       "price": 90000
     },
     {
@@ -779,13 +779,13 @@
     {
       "position": "L07",
       "type": "deluxe",
-      "empty": true,
+      "empty": false,
       "price": 110000
     },
     {
       "position": "L08",
       "type": "deluxe",
-      "empty": true,
+      "empty": false,
       "price": 110000
     },
     {

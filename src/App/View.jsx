@@ -7,7 +7,7 @@ import Zoom from 'components/Zoom';
 
 import './styles.css';
 
-const View = ({ seats, loading, choosingList, choose, total, zoomIn, zoomOut, scale }) => (
+const View = ({ seats, loading, choosingList, choose, total, zoomIn, zoomOut, scale, pay }) => (
   <div className="container">
     <div className="flex">
       <div className="item">
@@ -53,7 +53,7 @@ const View = ({ seats, loading, choosingList, choose, total, zoomIn, zoomOut, sc
         <div>
           Tổng cộng: {total.toLocaleString('it-IT', { style: 'currency', currency: 'VND' })}
         </div>
-        <button>Thanh toán</button>
+        <button onClick={pay}>Thanh toán</button>
       </div>
     </div>
   </div>

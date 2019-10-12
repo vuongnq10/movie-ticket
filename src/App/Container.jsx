@@ -35,22 +35,32 @@ class App extends React.Component {
 
   zoomOut = () => {
     const { scale } = this.state;
-    if (scale < 1.5) {
-      this.setState({ scale: scale + 0.05 });
+    if (scale < 2) {
+      this.setState({ scale: scale + 0.1 });
     }
   }
 
   zoomIn = () => {
     const { scale } = this.state;
     if (scale > 1) {
-      this.setState({ scale: scale - 0.05 });
+      this.setState({ scale: scale - 0.1 });
     }
+  }
+
+  pay = () => {
+    const { choosingList, total } = this.state;
+    this.props.pay(choosingList, total);
+    this.setState({
+      choosingList: [],
+      total: 0,
+    });
   }
 
   render = () => (
     <View {...this.props} {...this.state}
       choose={this.choose}
       zoomOut={this.zoomOut} zoomIn={this.zoomIn}
+      pay={this.pay}
     />
   );
 }
