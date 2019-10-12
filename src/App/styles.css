@@ -27,7 +27,7 @@
 }
 
 .item {
-  flex: 1 1 1;
+  flex: 1;
   color: #fff;
 }
 
@@ -82,4 +82,10 @@
   width: 24px;
   height: 24px;
   background-color: #1f4881;
+}
+
+.zoom {
+  min-width: 48px;
+  margin-top: 8px;
+  margin-bottom: 8px;
 }

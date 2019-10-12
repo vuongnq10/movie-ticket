@@ -1,10 +1,11 @@
 import React from 'react';
+import T from 'prop-types';
 
 import View from './View';
 
 class App extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
       choosingList: [],
       total: 0,
@@ -64,5 +65,10 @@ class App extends React.Component {
     />
   );
 }
+
+App.propTypes = {
+  pay: T.func.isRequired,
+  load: T.func.isRequired,
+};
 
 export default App;
