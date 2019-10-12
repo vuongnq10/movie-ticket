@@ -47,15 +47,16 @@ const View = ({ seats, loading, choosingList, choose, total, zoomIn, zoomOut, sc
         <div>* Nhấn vào ghế còn trống để chọn, nhấn lần nữa để xoá ghế chọn.</div>
         <div>* Tải lại trang sẽ lấy lại dữ liệu default.</div>
         <div>* Click vào bất kì đâu trên cinema để kéo.</div>
+        <br />
         {choosingList.length === 0 && <div>Bạn đang không chọn ghế nào</div>}
         {choosingList.length > 0 && <div>Bạn đang chọn ghế: {choosingList.join(', ')}</div>}
         {choosingList.length > 0 && <div>Tổng cộng: {choosingList.length} ghế</div>}
-        <div><button className="zoom" onClick={zoomOut}>&#43;</button> Phóng to</div>
-        <div><button className="zoom" onClick={zoomIn}>&#8722;</button> Thu nhỏ</div>
+        <div><button className="btn-zoom" onClick={zoomOut}>&#43;</button> Phóng to</div>
+        <div><button className="btn-zoom" onClick={zoomIn}>&#8722;</button> Thu nhỏ</div>
         <div>
           Tổng cộng: {total.toLocaleString('it-IT', { style: 'currency', currency: 'VND' })}
         </div>
-        <button onClick={pay}>Thanh toán</button>
+        <button className="pay" onClick={pay}>Thanh toán</button>
       </div>
     </div>
   </div>

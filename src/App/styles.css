@@ -5,6 +5,7 @@
 
 .cinema-wrapper {
   overflow: hidden;
+  border: 1px solid #676767;
 }
 
 .cinema {
@@ -27,7 +28,9 @@
 }
 
 .item {
-  flex: 1;
+  padding-left: 12px;
+  padding-right: 12px;
+  flex: 0 0 1;
   color: #fff;
 }
 
@@ -84,8 +87,21 @@
   background-color: #1f4881;
 }
 
-.zoom {
+.btn-zoom {
   min-width: 48px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 13px;
+  padding: 8px;
+}
+
+.pay {
+  border-radius: 4px;
+  background-color: #fff;
+  font-size: 13px;
+  padding: 12px;
   margin-top: 8px;
   margin-bottom: 8px;
 }

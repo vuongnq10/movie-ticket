@@ -1,4 +1,5 @@
 import React from 'react';
+import T from 'prop-types';
 
 class Zoom extends React.Component {
   constructor(props) {
@@ -39,7 +40,7 @@ class Zoom extends React.Component {
   }
 
   render = () => (
-    <div className="zoom" style={{ transform: `scale(${this.props.scale || 1})`, }}>
+    <div className="zoom" style={{ transform: `scale(${this.props.scale || 1})` }}>
       <div className="drag"
         onMouseDown={this.mouseDown}
         onMouseUp={this.mouseUp}
@@ -53,5 +54,10 @@ class Zoom extends React.Component {
     </div>
   );
 }
+
+Zoom.propTypes = {
+  children: T.node.isRequired,
+  scale: T.number.isRequired,
+};
 
 export default Zoom;
