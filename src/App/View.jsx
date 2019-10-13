@@ -7,7 +7,7 @@ import Zoom from 'components/Zoom';
 
 import './styles.css';
 
-const View = ({ seats, loading, choosingList, choose, total, zoomIn, zoomOut, scale, pay }) => (
+const View = ({ seats, loading, choosingList, choose, total, zoomIn, zoomOut, scale, pay, seatType }) => (
   <div className="container">
     <div className="flex">
       <div className="item">
@@ -50,7 +50,15 @@ const View = ({ seats, loading, choosingList, choose, total, zoomIn, zoomOut, sc
         <br />
         {choosingList.length === 0 && <div>Bạn đang không chọn ghế nào</div>}
         {choosingList.length > 0 && <div>Bạn đang chọn ghế: {choosingList.join(', ')}</div>}
-        {choosingList.length > 0 && <div>Số ghế: {choosingList.length} ghế</div>}
+        {choosingList.length > 0 && (
+          <>
+            {/* <div>Số ghế: {choosingList.length} ghế</div>*/}
+            <div>Loại ghế:</div>
+            <div>Standard: {seatType.standard || 0} vé (60.000/vé)</div>
+            <div>Vip: {seatType.vip || 0} vé (90.000/vé)</div>
+            <div>Deluxe: {seatType.deluxe || 0} vé (110.000/vé)</div>
+          </>
+        )}
         <div><button className="btn-zoom" onClick={zoomOut}>&#43;</button> Phóng to</div>
         <div><button className="btn-zoom" onClick={zoomIn}>&#8722;</button> Thu nhỏ</div>
         <div>
@@ -72,6 +80,11 @@ View.propTypes = {
   zoomIn: T.func.isRequired,
   zoomOut: T.func.isRequired,
   pay: T.func.isRequired,
+  seatType: T.shape({
+    standard: T.number,
+    vip: T.number,
+    deluxe: T.number,
+  }).isRequired
 };
 
 export default View;

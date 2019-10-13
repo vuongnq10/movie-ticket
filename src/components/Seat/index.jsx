@@ -6,7 +6,7 @@ import './styles.css';
 const Seat = ({ type, position, empty, choose, choosing, price }) => (
   <div
     className={`seat ${type} ${empty ? '' : 'choosed'} ${choosing ? 'choosing' : ''}`}
-    onClick={() => choose(position, empty, price)}
+    onClick={() => choose({ position, empty, price, type })}
   >
     {position}
   </div >

@@ -8,6 +8,11 @@ class App extends React.Component {
     super(props);
     this.state = {
       choosingList: [],
+      seatType: {
+        standard: 0,
+        vip: 0,
+        deluxe: 0,
+      },
       total: 0,
       scale: 1,
     };
@@ -17,19 +22,28 @@ class App extends React.Component {
     this.props.load();
   }
 
-  choose = (position, empty, price) => {
-    const { choosingList, total } = this.state;
+  choose = ({ position, empty, price, type }) => {
+    const { choosingList, total, seatType } = this.state;
     if (choosingList.indexOf(position) < 0) {
       if (empty && choosingList.length < 6) {
         this.setState({
           choosingList: [...choosingList, position],
           total: total + price,
+          seatType: {
+            ...seatType,
+            [type]: seatType[type] + 1,
+          },
         });
       }
     } else {
       this.setState({
         choosingList: choosingList.filter(i => i !== position),
         total: total - price,
+        seatType: {
+          ...seatType,
+          [type]: seatType[type] - 1,
+        },
+        // ...{ seatType: { [type]: seatType[type] - 1 > 0 ? seatType[type] - 1 : 0 } },
       });
     }
   }
