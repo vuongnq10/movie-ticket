@@ -68,6 +68,11 @@ class App extends React.Component {
     this.setState({
       choosingList: [],
       total: 0,
+      seatType: {
+        standard: 0,
+        vip: 0,
+        deluxe: 0,
+      },
     });
   }
 

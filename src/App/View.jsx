@@ -52,7 +52,7 @@ const View = ({ seats, loading, choosingList, choose, total, zoomIn, zoomOut, sc
         {choosingList.length > 0 && <div>Bạn đang chọn ghế: {choosingList.join(', ')}</div>}
         {choosingList.length > 0 && (
           <>
-            {/* <div>Số ghế: {choosingList.length} ghế</div>*/}
+            <div>Tổng ghế: {choosingList.length} ghế</div>
             <div>Loại ghế:</div>
             <div>Standard: {seatType.standard || 0} vé (60.000/vé)</div>
             <div>Vip: {seatType.vip || 0} vé (90.000/vé)</div>
