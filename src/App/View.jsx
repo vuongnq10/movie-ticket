@@ -50,7 +50,7 @@ const View = ({ seats, loading, choosingList, choose, total, zoomIn, zoomOut, sc
         <br />
         {choosingList.length === 0 && <div>Bạn đang không chọn ghế nào</div>}
         {choosingList.length > 0 && <div>Bạn đang chọn ghế: {choosingList.join(', ')}</div>}
-        {choosingList.length > 0 && <div>Tổng cộng: {choosingList.length} ghế</div>}
+        {choosingList.length > 0 && <div>Số ghế: {choosingList.length} ghế</div>}
         <div><button className="btn-zoom" onClick={zoomOut}>&#43;</button> Phóng to</div>
         <div><button className="btn-zoom" onClick={zoomIn}>&#8722;</button> Thu nhỏ</div>
         <div>
